@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metodología</title>
+<style>
+      
+    
+    body {
+        background-color: black; /* Reemplaza 'ruta/a/tu/imagen-de-fondo.jpg' con la ruta de tu imagen de fondo */
+   
+        background-position: center; /* Centrar la imagen de fondo */
+    }
+
+    /* Estilo para que las imágenes estén una encima de la otra */
+    .contenedor-imagen {
+        position: relative;
+        width: 100%; /* Cambiado a 100% para que el contenedor ocupe todo el ancho */
+        max-width: 1800px; /* Máximo ancho del contenedor */
+        margin: 0 auto; /* Centrar el contenedor de imágenes horizontalmente */
+    }
+
+    .imagen {
+        width: 100%; /* Cambiado a 100% para que la imagen ocupe todo el ancho del contenedor */
+        height: auto; /* La altura se ajustará automáticamente según la proporción de la imagen */
+        display: block; /* Asegura que la imagen se muestre como un bloque */
+        max-width: 100%; /* Hacer que la imagen tenga un máximo de ancho del 100% del contenedor */
+        max-height: 100%; /* Hacer que la imagen tenga un máximo de altura del 100% del contenedor */
+    }
+</style>
+
+<div class="contenedor-imagen">
+    <img class="imagen" src="Img/marcoteorico/1.png" alt="Primera Imagen">
+    <img class="imagen" src="Img/marcoteorico/2.png" alt="Segunda Imagen">
+    <img class="imagen" src="Img/marcoteorico/3.png" alt="Segunda Imagen">
+</div>
+
+</body>
+</html>

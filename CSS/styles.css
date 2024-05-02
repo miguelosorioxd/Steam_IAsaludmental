@@ -1,0 +1,133 @@
+:root{
+    --primario: #2e4917;
+    --secundario: #434b00;
+    --terciario: #588100;
+    --cuaternario: #efffee;
+    --quinario:#cccca3;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #617e5b 0%, #95b685);
+}
+
+h1{
+    font-size: 6rem;
+    color: var(--primario);
+    text-align: center;
+}
+
+.contach2{
+    font-size: 4rem;
+    color: var(--secundario);
+
+}
+
+.impoh2{
+    font-size: 4rem;
+    color: var(--terciario);
+    justify-content: center;
+}
+
+.navFondo{
+    background-color: var(--quinario); /*clase designada para el fondo de la navegación*/
+}
+
+.contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+
+}
+
+.navPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navPrincipal a{
+    font-size: 2.5rem;
+    color: var(--secundario);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navPrincipal a:hover{
+    background-color: var(--cuaternario);
+    padding: 3rem;
+}
+
+.contacFondo{
+    background-image: url(../Img/7071150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 30rem;
+    position: relative;
+}
+
+.contacBase{
+    background-color: #fffafa5e;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(33,33,33,0.62);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(33,33,33,0.62);
+    box-shadow: 0px 0px 10px 0px rgba(33,33,33,0.62);
+    background-color: var(--cuaternario);
+    padding: 3rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.contenidoMain{ 
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contenidoMain p{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.contenidoMain h2{
+    font-size: 3rem;
+    color: var(--primario);
+}
+
+.subtitulos {
+    font-weight: bold;
+    /* Otros estilos que desees aplicar */
+}
+
+footer {
+    
+    text-align: center; /* Centra el texto dentro del footer */
+  
+    color: #ffffff; /* Color del texto del footer */
+    padding: 20px 0; /* Espaciado interno del footer */
+    width: 100%; /* Ancho del footer */
+    max-width: 1800px; /* Ancho máximo del footer */
+    margin: 0 auto; /* Centrar el footer horizontalmente */
+}
+
+.footer2 {
+    font-size: 6px; /* Tamaño de fuente más pequeño */
+}
+
+footer .footerchikito {
+    font-size: 9px;
+}
